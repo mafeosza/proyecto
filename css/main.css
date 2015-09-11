@@ -1,0 +1,201 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, nav {
+	display: block;
+}
+body{
+	background: url("../img/fondo.jpg") no-repeat center center fixed;
+	background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+	font: 13px/22px Helvetica, Arial,sans-serif;
+}
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+    text-align: center;
+}
+ 
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+    text-align: center;
+}
+h4 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 11px 0;
+    text-align: center;
+}
+p {
+    padding-bottom: 22px;
+    text-align: center;
+    color: blue;
+    margin-top: 1%;
+}
+.titulo1{
+	font-size: 38px;
+	line-height: 34px;
+	padding: 32px 0;
+	text-align: center;
+}
+.titulo{
+	font-size: 38px;
+	line-height: 34px;
+	text-align: center;
+}
+
+.productos{
+	
+	background: #fff;
+	height: 200px;
+	width: 780px;
+}
+#registro{
+	line-height: 22px;
+    padding: 11px 0;
+    font-size: 38px;
+    text-align: center;
+}
+#registro p{
+	font-size: 28px;
+	color: black;
+}
+nav {
+    /*La etiqueta absolute, permite que un objeto sea posicionado
+    en cualquier lugar de la pagina.   */
+    /* http://www.w3schools.com/css/css_positioning.asp */
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    background: url("../img/nav_background.png");
+}
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    /* es para agregarle filigranas a la lista, 
+    en este caso no es necesario.*/
+    list-style: none; 
+
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+        display: block;
+        margin-right: 20px;
+        width: 140px;
+        font-size: 14px;
+
+        /*Define el espacio entre las lineas de texto.*/
+        line-height: 44px; 
+        text-align: center;
+        text-decoration: none;
+        color: #777;
+    }
+    nav ul li a:hover {
+        color: #fff;
+    }
+
+    nav ul li.selected a { 
+        color: #fff;
+    }
+
+#contenedor{
+	height: 1050px;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 8%;
+
+}
+#contenedor1{
+	height: 1050px;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+
+.productos{
+	
+	height: 500px;
+	width: 760px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 50px;
+}
+.productos .foto1{
+	
+
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto2{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto3{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto4{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto5{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto6{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto7{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto8{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+.productos #foto9{
+	
+	width: 250px;
+	height: 150px;
+	display: inline-block;
+}
+
+form{
+	text-align: center;
+	margin-top: 5%;
+	
+}
+form p {
+        margin-bottom: 22px;
+        padding: 0 22px;
+        text-align: center;
+        color: black;
+    }
