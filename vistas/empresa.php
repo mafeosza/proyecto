@@ -21,21 +21,6 @@
         </ul>
         </nav>
     </nav>
-    	
-
-
-<!--<nav>
-        <ul>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contactenos</a></li>
-            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro.php">Registrate</a></li>
-            <li><a href="#">Usuario</a></li>
-		    <li><a href="#">Empresa</a></li>
-
-        </ul>
-</nav>-->
-
 <section id= "contenedor1">
 	<h3>Bienvenido "Empresa"</h3>
 	<section class="productos">
