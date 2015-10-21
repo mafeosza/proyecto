@@ -2,19 +2,19 @@
 <html>
 <head>
     <title>Producto</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="/proyecto/css/main.css"/>
 </head>
 <body>
 <header>
-    	<h1 class="titulo">Producto "nombre"</h1>
+    	<h1 class="titulo1">Producto "nombre"</h1>
  </header>
  <section id= "contenedor1">
  	<section>
  		<article class="foto1">
- 				<img src="img/index.jpg" width="50%" height="80%">
+ 				<img src="/proyecto/img/index.jpg" width="50%" height="80%">
  				<h3><a href="#">Precio actual: n</a></h3>
  		</article>
- 				<img src="img/conteo.png" width="45%" height="70%">
+ 				<img src="/proyecto/img/conteo.png" width="45%" height="70%">
  		<article>
  			<p> Caracteristicas: 
  				computador acer, color negro, 4gb de ram</p>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Usuario</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="/proyecto/css/main.css"/>
 </head>
 <body>
 <header>
@@ -32,11 +32,11 @@
 	<section class="productos">
 		<h2>Productos comprados</h2>
 		<article class="foto1">
- 				<img src="img/index.jpg" width="99%" height="100%">
+ 				<img src="/proyecto/img/index.jpg" width="99%" height="100%">
  				<p> Ver estado</p>
  		</article>
  		<article id="foto2">
-                <img src="img/index.jpg" width="99%" height="100%">
+                <img src="/proyecto/img/index.jpg" width="99%" height="100%">
 				<p> Ver estado</p>
  		</article>
 	</section>

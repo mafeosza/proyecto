@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Empresa</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="/proyecto/css/main.css"/>
 </head>
 <body>
 <header>
@@ -27,15 +27,15 @@
 	<section class="productos">
 		<h2>Productos comprados</h2>
 		<article class="foto1">
- 				<img src="img/index.jpg" width="99%" height="100%">
+ 				<img src="/proyecto/img/index.jpg" width="99%" height="100%">
  				<h3><a href="#">Vendido</a></h3>
  		</article>
  		<article id="foto2">
-                <img src="img/index.jpg" width="99%" height="100%">
+                <img src="/proyecto/img/index.jpg" width="99%" height="100%">
  				<h3><a href="#">Subasta Cerrada</a></h3>
  		</article>
  		<article id="foto3">
-                <img src="img/index.jpg" width="99%" height="100%">
+                <img src="/proyecto/img/index.jpg" width="99%" height="100%">
  				<h3><a href="#">En subasta</a></h3>
  		</article>
 	</section>

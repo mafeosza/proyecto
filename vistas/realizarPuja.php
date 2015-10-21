@@ -2,13 +2,13 @@
 <html>
 <head>
     <title>Realizar Puja</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="/proyecto/css/main.css"/>
 </head>
 <body>
 	<header>
     	<h1 class="titulo">Ofertar</h1>
   	</header>
-	<section>
+	<section class="contenedor1">
 		<h2>Tiene n pujas disponibles</h2>
 		<h3><a href="comprarPujas.php">comprar m&aacute;s pujas</a></h3>
 	</section>

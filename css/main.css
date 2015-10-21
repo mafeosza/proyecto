@@ -14,25 +14,32 @@ body{
         -o-background-size: cover;
 	font: 13px/22px Helvetica, Arial,sans-serif;
 }
-h2 {
-    font-size: 28px;
-    line-height: 44px;
-    padding: 22px 0;
-    text-align: center;
+h1{
+	margin:0 auto;
+	font-size:80px;
+	color:#000;
 }
- 
-h3 {
-    font-size: 18px;
-    line-height: 22px;
-    padding: 11px 0;
-    text-align: center;
+
+h2{
+	margin:0 auto;
+	font-size:40px;
+	color:#CD853F;
 }
-h4 {
-    font-size: 14px;
-    line-height: 22px;
-    padding: 11px 0;
-    text-align: center;
+
+h3{
+	margin:0 auto;
+	padding:20px;
+	font-size:30px;
+	color:purple;
+	text-align:center;
 }
+
+h4{
+	font-size:20px;
+	color:purple;
+	text-align:center;
+}
+
 p {
     padding-bottom: 22px;
     text-align: center;
@@ -112,7 +119,7 @@ nav ul li a {
 	width: 780px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 8%;
+	margin-top: 9%;
 
 }
 #contenedor1{
@@ -123,70 +130,59 @@ nav ul li a {
 	text-align: center;
 
 }
+#imagen  img{
+	width: 250px;
+	height: 150px;
+	padding: 5%;
+	display: inline-block;
+}
 
+#content {
+    display: inline-block;
+    padding: 5%;
+}
+#content1 {
+    display: inline-block;
+    padding: 5%;
+}
+
+#content2 {
+    display: inline-block;
+    padding: 5%;
+}
+
+#content3 {
+    display: inline-block;
+    padding: 5%;
+}
 .productos{
-	
-	height: 500px;
-	width: 760px;
+	height: 100%;
+	width: 90%;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 50px;
-}
-.productos .foto1{
+	padding-top: 20px;
 	
+}
 
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto2{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto3{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto4{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto5{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto6{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto7{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto8{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
-.productos #foto9{
-	
-	width: 250px;
-	height: 150px;
-	display: inline-block;
-}
+/* caracteristicas del img de las imagenes contenidas en el body*/
+    img{
+        border-radius:10%;
+        box-shadow: 0px 0px 15px #000;
+    	width: 250px;
+    	height:150px;
+
+    }
+
+/*este segundo bloque de codigo, se utilizo para crear un dinamismo en las imagenes*/
+    img:hover{
+        border-radius:10%;
+        box-shadow: 0px 0px 50px #500;
+
+        -moz-transition: all 1s;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+
+    }
 
 form{
 	text-align: center;
@@ -199,3 +195,7 @@ form p {
         text-align: center;
         color: black;
     }
+#detallesp{
+	float: left;
+  	width: 150px;
+}
