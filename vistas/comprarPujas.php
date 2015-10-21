@@ -8,7 +8,6 @@
 	<header>
     	<h1 class="titulo1">Subastas</h1>
   	</header>
-        <!-- Navegacion -->
     <nav>
         <nav>
         <ul class="styloMenu">
