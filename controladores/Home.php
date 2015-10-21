@@ -13,13 +13,14 @@
 
  	public function index()
  	{
-		$usuario=$this->cargarModelo("Usuario");
+ 		$usuario=$this->cargarModelo("Usuario");
 		$this->cargarVista("index");
 	}
 	public function detalle()
 	{
 		$this->cargarVista("producto");
 	}
+	
 	public function register() 
 	{
 		$nombre = $_POST ["nombre"];
