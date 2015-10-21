@@ -4,33 +4,30 @@
     <title>Usuario</title>
     <link rel="stylesheet" href="/proyecto/css/main.css"/>
 </head>
-<body>
 <header>
-    	<h1 class="titulo">Bienvenido "Usuario"</h1>
+    	<h1 class="titulo1">Subastas</h1>
   	</header>
-
-
-<!--<nav>
-        <ul>
+        <!-- Navegacion -->
+    <nav>
+        <nav>
+        <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
             <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
             <li><a href="tipoRegistro.php">Registrate</a></li>
-            <li><a href="#">Usuario</a></li>
-		    <li><a href="#">Empresa</a></li>
+            <li><a href="usuario.php">Usuario</a></li>
 
         </ul>
-</nav>-->
-
+        </nav>
+    </nav>
+<body>
 <section id= "contenedor1">
 	<section>
-		
-		<h2>Tiene n pujas disponibles</h2>
-		<h3><a href="comprarPujas.php">comprar m&aacute;s pujas</a></h3>
-	</section>
+		<h2>Bienvenido "Usuario"<br></h2>
+		<h3>Tiene n pujas disponibles</h3>
+		<h4><a href="comprarPujas.php">comprar m&aacute;s pujas</a></h4>
 	
-	<section class="productos">
-		<h2>Productos comprados</h2>
+		<h3>Productos comprados</h3>
 		<article class="foto1">
  				<img src="/proyecto/img/index.jpg" width="99%" height="100%">
  				<p> Ver estado</p>

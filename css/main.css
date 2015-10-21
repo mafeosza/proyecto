@@ -23,7 +23,7 @@ h1{
 h2{
 	margin:0 auto;
 	font-size:40px;
-	color:#CD853F;
+	color:purple;
 }
 
 h3{
@@ -36,7 +36,7 @@ h3{
 
 h4{
 	font-size:20px;
-	color:purple;
+	color:black;
 	text-align:center;
 }
 
@@ -45,6 +45,13 @@ p {
     text-align: center;
     color: blue;
     margin-top: 1%;
+}
+.conteo{
+	text-align: center;
+  	/**border: 1px solid #000;**/
+}
+.conteo th, .conteo td {
+  border: 1px solid #000;
 }
 .titulo1{
 	font-size: 38px;
@@ -57,6 +64,45 @@ p {
 	line-height: 34px;
 	text-align: center;
 }
+nav{
+    position:absolute;
+    left:0;
+    width:100%;
+}
+
+nav ul{
+    margin:0 auto;
+    width:940px;
+    list-style:none;
+
+}
+
+nav ul li{
+    float:left;
+    
+}
+
+.styloMenu li a{
+    display:block;
+    margin-right:10px;
+    width:175px;
+    font-size: 22px;
+    line-height:44px;
+    text-align:center;
+    text-decoration:none;
+
+    color:purple;
+}
+
+/*Le brinda a las propiedades de HOVER y Selected un color particular*/
+      .styloMenu li a:hover {
+            color: #ff6;
+        }
+ 
+        .styloMenu li.selected a { 
+            color: #fff;
+        }
+
 
 .productos{
 	
@@ -74,45 +120,7 @@ p {
 	font-size: 28px;
 	color: black;
 }
-nav {
-    /*La etiqueta absolute, permite que un objeto sea posicionado
-    en cualquier lugar de la pagina.   */
-    /* http://www.w3schools.com/css/css_positioning.asp */
-    position: absolute; 
-    left: 0;
-    width: 100%;
-    background: url("../img/nav_background.png");
-}
-nav ul {
-    margin: 0 auto;
-    width: 940px;
-    /* es para agregarle filigranas a la lista, 
-    en este caso no es necesario.*/
-    list-style: none; 
 
-}
-nav ul li {
-    float: left;
-}
-nav ul li a {
-        display: block;
-        margin-right: 20px;
-        width: 140px;
-        font-size: 14px;
-
-        /*Define el espacio entre las lineas de texto.*/
-        line-height: 44px; 
-        text-align: center;
-        text-decoration: none;
-        color: #777;
-    }
-    nav ul li a:hover {
-        color: #fff;
-    }
-
-    nav ul li.selected a { 
-        color: #fff;
-    }
 
 #contenedor{
 	height: 1050px;
@@ -123,10 +131,9 @@ nav ul li a {
 
 }
 #contenedor1{
-	height: 1050px;
-	width: 780px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 8%;
 	text-align: center;
 
 }

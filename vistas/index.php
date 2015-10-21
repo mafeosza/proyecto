@@ -10,7 +10,8 @@
   	</header>
         <!-- Navegacion -->
     <nav>
-        <ul>
+        <nav>
+        <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
             <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
@@ -19,6 +20,7 @@
 		    <li><a href="empresa.php">Empresa</a></li>
 
         </ul>
+        </nav>
     </nav>
     <section id= "contenedor">
     	<section class="productos">

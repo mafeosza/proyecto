@@ -4,16 +4,31 @@
     <title>Realizar Puja</title>
     <link rel="stylesheet" href="/proyecto/css/main.css"/>
 </head>
-<body>
-	<header>
-    	<h1 class="titulo">Ofertar</h1>
+<header>
+    	<h1 class="titulo1">Subastas</h1>
   	</header>
-	<section class="contenedor1">
-		<h2>Tiene n pujas disponibles</h2>
-		<h3><a href="comprarPujas.php">comprar m&aacute;s pujas</a></h3>
-	</section>
-	<section id= "contenedor1">
-	<h2><a href="#">Precio actual: n</a></h2>
+        <!-- Navegacion -->
+    <nav>
+        <nav>
+        <ul class="styloMenu">
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contactenos</a></li>
+            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
+            <li><a href="tipoRegistro.php">Registrate</a></li>
+            <li><a href="usuario.php">Usuario</a></li>
+		    <li><a href="empresa.php">Empresa</a></li>
+
+        </ul>
+        </nav>
+    </nav>
+<body>
+    	
+	<section id="contenedor1">
+		<h1>Ofertar</h1>
+		<h3><br>Tiene n pujas disponibles</h3>
+		<a href="comprarPujas.php"><h4>comprar m&aacute;s pujas</h4></a>
+	
+	<a href="#"><h4>Precio actual: n</h4></a>
 	<p>
     	<label for="valorOfertado"><h3>Valor a ofertar:</h3></label>
     	<input name="valorOfertado" id="valorOfertado" type="text" required>

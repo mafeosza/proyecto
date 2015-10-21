@@ -4,22 +4,26 @@
 	 <title>Registro</title>
 	 <link rel="stylesheet" type="text/css" href="/proyecto/css/main.css">
 </head>
-<body>
-	<!--<nav>
-        <ul>
+<header>
+        <h1 class="titulo1">Subastas</h1>
+    </header>
+        <!-- Navegacion -->
+    <nav>
+        <nav>
+        <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
             <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
-            <li><a href="#">Usuario</a></li>
-		    <li><a href="#">Empresa</a></li>
+            <li><a href="tipoRegistro.php">Registrate</a></li>
+            
 
         </ul>
-    </nav>-->
-    
-   <form action="nuevoUsuario.php" method="post"> 
-   			<section>
-                <h2>Registro Usuario</h2>
-            </section>
+        </nav>
+    </nav>
+<body>
+    <section id="contenedor1">
+        <h2>Registro Usuario<br></h2> 
+        <form action="nuevoUsuario.php" method="post"> 
                 <p>
                     <label for="name">Nombre</label>
                     <input name="name" id="name" type="text" required />
@@ -53,4 +57,5 @@
                 <p><input type="submit" value="Realizar Registro"  onclick="validar()"/></p>
             </form>
             <h3><a href="tipoRegistro.php">Volver</a></h3>
+     </section>       
 </body>
