@@ -4,7 +4,7 @@
 	 <title>Login</title>
 	 <link rel="stylesheet" type="text/css" href="/proyecto/css/main.css">
      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
-     <script type="text/javascript" src="../js/main.js"></script>
+     <script type="text/javascript" src="../js/validacion1.js"></script>
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
@@ -31,7 +31,8 @@
 			</p>
 			<p>
 				<label for="clave">Clave</label>
-				<input name="clave" class="clave" type="password"/>
+				<input name="clave" id="pass" type="password"/>
+				<span id="errorp"></span>
 			</p>
 			<input type="submit" class="boton" value="Iniciar sesi&oacute;n" />
 		</form>

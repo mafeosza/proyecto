@@ -3,6 +3,8 @@
 <head>
 	 <title>Registro Empresa</title>
 	 <link rel="stylesheet" type="text/css" href="/proyecto/css/main.css">
+         <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+     <script type="text/javascript" src="../js/validacion2.js"></script>
 </head>
 <header>
         <h1 class="titulo1">Subastas</h1>
@@ -27,27 +29,33 @@
             <tr>
                 <p>
                     <label for="nombreEmp">Nombre empresa</label>
-                    <input name="nombreEmp" id="nombreEmp" type="text" required />
+                    <input name="nombreEmp" id="nombreEmp" type="text"  />
+                    <span id="er1"></span>
                 </p>
                 <p>
                     <label for="usuarioEmp">Usuario</label>
-                    <input name="usuarioEmp" id="usuarioEmp" type="text" required />
+                    <input name="usuarioEmp" id="usuarioEmp" type="text"  />
+                    <span id="er2"></span>
                 </p>
                 <p>
                     <label for="claveEmp">Clave</label>
-                    <input name="claveEmp" id="claveEmp" type="password" required />
+                    <input name="claveEmp" id="claveEmp" type="password"  />
+                    <span id="er3"></span>
                 </p>
                 <p>
                     <label for="telefonoEmp">Telefono</label>
-                    <input name="telefonoEmp" id="telefonoEmp" type="text" required/>
+                    <input name="telefonoEmp" id="telefonoEmp" type="text" />
+                    <span id="er4"></span>
                 </p>
                 <p>
                     <label for="emailEmp">Correo</label>
-                    <input name="emailEmp" id="emailEmp" type="email" required />
+                    <input name="emailEmp" id="emailEmp" type="email"  />
+                    <span id="er5"></span>
                 </p>
                  <p>
                     <label for="nombreResp">Nombre encargado</label>
-                    <input name="nombreResp" id="nombreResp" type="text" required />
+                    <input name="nombreResp" id="nombreResp" type="text"  />
+                    <span id="er6"></span>
                 </p>
                 <p><input type="submit" value="Realizar Registro"  onclick="validar()"/></p>
                 </tr>
