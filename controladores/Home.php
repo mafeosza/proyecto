@@ -4,15 +4,6 @@
  {
   	public function index()
  	{
-<<<<<<< HEAD
-=======
-			print_r($this->parametros);
-	}
-
- 	public function index()
- 	{
- 		$usuario=$this->cargarModelo("Usuario");
->>>>>>> origin/master
 		$this->cargarVista("index");
 	}
 	
@@ -28,7 +19,6 @@
 	{
 		$this->cargarVista("producto");
 	}
-<<<<<<< HEAD
 	public function login()
 	{
 		$this->cargarVista("login");		
@@ -77,9 +67,6 @@
 	{
 		$this->cargarVista("usuario");		
 	}
-=======
-	
->>>>>>> origin/master
 	public function register() 
 	{
 		$nombre = $_POST ["nombre"];
