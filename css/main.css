@@ -190,6 +190,27 @@ nav ul li{
         -o-transition: all 1s;
 
     }
+/*responsive*/
+@media only screen and (min-width:768px) and (max-width: 1024px)  {
+#contenedor #contenedor1{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        display: block;
+    }
+    .side ul li{
+        float: left;
+    }
+
+    .tabla{
+        display: block;
+    }
+    body{
+        width: 100%
+    }
+
+}
+/*form*/
 
 form{
 	text-align: center;
@@ -202,20 +223,28 @@ form p {
         text-align: center;
         color: black;
     }
-.errores
+
+.error
 {
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0, 0.3);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0, 0.3);
-    -o-box-shadow: 0 0 10px rgba(0,0,0, 0.3);
-    background: red;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
-    color: #fff;
-    display: none;
-    font-size: 14px;
-    margin-top: -80px;
-    margin-left: 340px;
-    padding: 10px;
-    position: absolute;
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+
+}
+.error:before{ /* Este es un truco para crear una flechita */
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
 }
 #detallesp{
 	float: left;

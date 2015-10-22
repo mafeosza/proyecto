@@ -3,6 +3,8 @@
 <head>
 	 <title>Login</title>
 	 <link rel="stylesheet" type="text/css" href="/proyecto/css/main.css">
+     <script type="text/javascript" src="/proyecto/js/jquery-2.1.4"></script>
+     <script type="text/javascript" src="main.js"></script>
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
@@ -19,18 +21,18 @@
         </nav>
     </nav>	
 <body>
-	<div id="contenedor">
+	<div id="contenedor1">
 		<h2>Login</h2>
-		<form  action="#" method="post">
+		<form  id="login" action="#" method="post">
 			<p>
-				<label for="name">Nombre</label>
-				<input name="name" id="name" type="text" required />
+				<label for="name">Nombre</label> 
+				<input name="name" class="name" type="text" />
 			</p>
 			<p>
-				<label for="name">Clave</label>
-				<input name="clave" id="clave" type="password" required />
+				<label for="clave">Clave</label>
+				<input name="clave" class="clave" type="password"/>
 			</p>
-			<button type="submit">Iniciar sesi&oacute;n</button>
+			<input type="submit" class="boton" value="Iniciar sesi&oacute;n" />
 		</form>
 		<h3><a href="registro">Registrate</a></h3>
 		<h4><a href="index">Volver a la p&aacute;gina de inicio</a></h4>
