@@ -14,7 +14,7 @@
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
+            <li><a href="#">Iniciar sesi&oacute;n</a></li>
             <li><a href="tipoRegistro.php">Registrate</a></li>
             <li><a href="usuario.php">Usuario</a></li>
 		    <li><a href="empresa.php">Empresa</a></li>
@@ -28,7 +28,7 @@
             <hr/>
             <div id="content">
     		    <section class="imagen">
- 			    	<a href="producto.php"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
+ 			    	<a href="home/detalle"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  		        </section>
             

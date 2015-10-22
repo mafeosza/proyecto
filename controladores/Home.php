@@ -15,7 +15,10 @@
  	{
 		$usuario=$this->cargarModelo("Usuario");
 		$this->cargarVista("index");
-		
+	}
+	public function detalle()
+	{
+		$this->cargarVista("producto");
 	}
 	public function register() 
 	{
