@@ -13,10 +13,9 @@
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro.php">Registrate</a></li>
-            <li><a href="usuario.php">Usuario</a></li>
-
+            <li><a href="login">Iniciar sesi&oacute;n</a></li>
+            <li><a href="tipoRegistro">Registrate</a></li>
+            <li><a href="usuario">Usuario</a></li>
         </ul>
         </nav>
     </nav>
@@ -25,8 +24,7 @@
 	<section>
 		<h2>Bienvenido "Usuario"<br></h2>
 		<h3>Tiene n pujas disponibles</h3>
-		<h4><a href="comprarPujas.php">comprar m&aacute;s pujas</a></h4>
-	
+		<h4><a href="comprarPujas">comprar m&aacute;s pujas</a></h4>
 		<h3>Productos comprados</h3>
 		<article class="foto1">
  				<img src="/proyecto/img/index.jpg" width="99%" height="100%">
@@ -37,7 +35,6 @@
 				<p> Ver estado</p>
  		</article>
 	</section>
-
-	<button> <a href="index.php"><h4>Ir a p&aacute;gina de inicio</h4></button>
+	<button> <a href="index"><h4>Ir a p&aacute;gina de inicio</h4></button>
 </section>
 </body>

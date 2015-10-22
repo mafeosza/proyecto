@@ -14,9 +14,9 @@
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro.php">Registrate</a></li>
-            <li><a href="empresa.php">Empresa</a></li>
+            <li><a href="login">Iniciar sesi&oacute;n</a></li>
+            <li><a href="tipoRegistro">Registrate</a></li>
+            <li><a href="empresa">Empresa</a></li>
 
         </ul>
         </nav>
@@ -38,9 +38,8 @@
                 <img src="/proyecto/img/index.jpg" width="99%" height="100%">
  				<h3><a href="#">En subasta</a></h3>
  		</article>
-	</section>
-
-	<button> <a href="index.php"><h4>Ir a p&aacute;gina de inicio</h4></button>
-    <button> <a href="registroProducto.php"><h4>Registrar producto nuevo</h4></button>
+        </section>
+	<button> <a href="index"><h4>Ir a p&aacute;gina de inicio</h4></button>
+    <button> <a href="registroProducto"><h4>Registrar producto nuevo</h4></button>
 </section>
 </body>

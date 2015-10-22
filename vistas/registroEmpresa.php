@@ -13,8 +13,8 @@
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro.php">Registrate</a></li>
+            <li><a href="login">Iniciar sesi&oacute;n</a></li>
+            <li><a href="tipoRegistro">Registrate</a></li>
             
 
         </ul>
@@ -23,7 +23,7 @@
 <body> 
     <section id="contenedor1">
       <h2>Registro Empresa <br></h2>
-        <form action="nuevaEmpresa.php" method="post"> 
+        <form action="nuevaEmpresa" method="post"> 
             <tr>
                 <p>
                     <label for="nombreEmp">Nombre empresa</label>
@@ -49,13 +49,9 @@
                     <label for="nombreResp">Nombre encargado</label>
                     <input name="nombreResp" id="nombreResp" type="text" required />
                 </p>
-                
-                
                 <p><input type="submit" value="Realizar Registro"  onclick="validar()"/></p>
-                
                 </tr>
             </form>
-           
-            <h3><a href="tipoRegistro.php">Volver</a></h3>
+            <h3><a href="tipoRegistro">Volver</a></h3>
     </section>
 </body>

@@ -14,10 +14,10 @@
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="#">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro.php">Registrate</a></li>
-            <li><a href="usuario.php">Usuario</a></li>
-		    <li><a href="empresa.php">Empresa</a></li>
+            <li><a href="login">Iniciar sesi&oacute;n</a></li>
+            <li><a href="tipoRegistro">Registrate</a></li>
+            <li><a href="usuario">Usuario</a></li>
+		    <li><a href="empresa">Empresa</a></li>
 
         </ul>
         </nav>
@@ -28,52 +28,46 @@
             <hr/>
             <div id="content">
     		    <section class="imagen">
- 			    	<a href="home/detalle"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
+ 			    	<a href="Home/producto"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  		        </section>
             
  			    <section id="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/celular.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/celular.jpg" width="99%" height="100%"></a>
 				    <p> Fecha cierre</p>
  			    </section>
             </div>
             <div id="content1">
  			    <section class="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/cuadro.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/cuadro.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  			    </section>
- 			
                 <section class="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/maletas.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/maletas.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  			    </section>
             </div>
             <div id="content2">
  			    <section class="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/carro.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/carro.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  			    </section>
  			    <section class="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/casa.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/casa.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  			    </section>
             </div>
            <div id="content3">
  			    <section class="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/cicla.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/cicla.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  			    </section>
  			    <section class="imagen">
-                    <a href="producto.php"><img src="/proyecto/img/tele.jpg" width="99%" height="100%"></a>
+                    <a href="producto"><img src="/proyecto/img/tele.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  			    </section>
             </div>
- 	  		<!--<article id="foto9">
-                <a href="producto.php"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
- 				<p> Fecha cierre</p>
- 			</article>-->
    		</section>
    		<!--<footer> 	</footer>-->
   </section>
-
 </body>

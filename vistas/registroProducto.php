@@ -13,10 +13,9 @@
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="login.php">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro.php">Registrate</a></li>
-            <li><a href="empresa.php">Empresa</a></li>
-
+            <li><a href="login">Iniciar sesi&oacute;n</a></li>
+            <li><a href="tipoRegistro">Registrate</a></li>
+            <li><a href="empresa">Empresa</a></li>
         </ul>
         </nav>
     </nav>
@@ -51,6 +50,6 @@
                 
                 <p><input type="submit" value="Realizar Registro"  onclick="validar()"/></p>
             </form>
-            <h4><a href="index.php">Ir a la p&aacute;gina principal</a></h4>
+            <h4><a href="index">Ir a la p&aacute;gina principal</a></h4>
     </section>
 </body>
