@@ -3,8 +3,8 @@
 <head>
 	 <title>Login</title>
 	 <link rel="stylesheet" type="text/css" href="/proyecto/css/main.css">
-     <script type="text/javascript" src="/proyecto/js/jquery-2.1.4"></script>
-     <script type="text/javascript" src="main.js"></script>
+     <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+     <script type="text/javascript" src="../js/main.js"></script>
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
@@ -26,7 +26,8 @@
 		<form  id="login" action="#" method="post">
 			<p>
 				<label for="name">Nombre</label> 
-				<input name="name" class="name" type="text" />
+				<input name="name" id="name" type="text" />
+				<span id="error1"></span> 
 			</p>
 			<p>
 				<label for="clave">Clave</label>
