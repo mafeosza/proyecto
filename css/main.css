@@ -190,7 +190,12 @@ nav ul li{
         -o-transition: all 1s;
 
     }
+.conteo{
+    display: block;
+}
 /*responsive*/
+
+/*Tablet*/
 @media only screen and (min-width:768px) and (max-width: 1024px)  {
 #contenedor #contenedor1{
         position: fixed;
@@ -198,11 +203,15 @@ nav ul li{
         top: 0;
         display: block;
     }
-    .side ul li{
-        float: left;
+    ul .styloMenu{
+        height: 30px;
+        width: 100%;
     }
-
-    .tabla{
+    ul .styloMenu > li{
+        float: left;
+        position: relative;
+    }
+    .conteo{
         display: block;
     }
     body{
@@ -210,6 +219,57 @@ nav ul li{
     }
 
 }
+/*Smartphone horizontal*/
+@media only screen and (min-width: 321px) and (max-width: 767px){
+#contenedor #contenedor1{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        display: block;
+    }
+   ul .styloMenu{
+        height: 30px;
+        width: 100%;
+    }
+    ul .styloMenu > li{
+        float: left;
+        position: relative;
+    }
+
+    .conteo{
+        display: block;
+    }
+    body{
+        width: 100%
+    }           
+}
+/*Smartphone vertical*/
+@media only screen and (max-width: 320px){
+#contenedor #contenedor1
+{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        display: block;
+    }
+    ul .styloMenu{
+        height: 30px;
+        width: 100%;
+    }
+    ul .styloMenu > li{
+        float: left;
+        position: relative;
+    }
+
+    .conteo{
+        display: block;
+    }
+    body{
+        width: 100%
+        }   
+    
+}
+
 /*form*/
 
 form{
