@@ -28,7 +28,7 @@
             <hr/>
             <div id="content">
     		    <section class="imagen">
- 			    	<a href="Home/producto"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
+ 			    	<a href="producto"><img src="/proyecto/img/index.jpg" width="99%" height="100%"></a>
  				    <p> Fecha cierre</p>
  		        </section>
             

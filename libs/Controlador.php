@@ -32,7 +32,6 @@
 			$nombreVista=ucfirst(strtolower($nombreVista));
 			$urlFile='vistas/'.$nombreVista.'.php';
 	
-
 			if (file_exists($urlFile)) {
 				require_once($urlFile);
 				return true;

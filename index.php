@@ -1,7 +1,7 @@
 <?php
 
 	class FrontController{
-		private $controlador="home";
+		private $controlador="Home";
 		private $metodo="index";
 		private $params;
 
@@ -10,7 +10,7 @@
 
 		$url = $_SERVER["REQUEST_URI"];
    		$path = trim(parse_url($url, PHP_URL_PATH), "/");
-   		try{
+ 	try{
    			@list($appname,$controlador, $metodo, $params)=explode("/",$path,4);
    			@$params=(explode("/", $params));
 
@@ -22,9 +22,11 @@
    		if($metodo==null){
 			$metodo=$this->metodo;
    		}
+
    		$micontrolador=$this->cargarContolador($controlador);
-   		if ($micontrolador!=null) {
-   			
+
+   		if ($micontrolador!=null)
+   		{   			
    			$micontrolador->setParametros($params);
    			$stringMetodo=$metodo;
 
@@ -51,6 +53,7 @@
 
 		$controlador=ucfirst(strtolower($controlador));
 		$urlFile='controladores/' . $controlador . '.php';
+
 		if (file_exists($urlFile)) {
 			# code...
 			include $urlFile;
