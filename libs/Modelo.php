@@ -27,7 +27,9 @@
 
 		protected function query($query)
 		{
-			return $this->conexion->query($query);
+			$result = $this->conexion->prepare($query);
+			$result->execute();
+			return $result;
 		}
 
 	function update($columnaset,$where)

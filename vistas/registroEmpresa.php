@@ -55,7 +55,7 @@
                     <input name="nombreResp" id="nombreResp" type="text"  />
                     <span id="er6"></span>
                 </p>
-                <p><input type="submit" value="Realizar Registro"  onclick="validar()"/></p>
+               <button name="boton" id="boton" class="boton" type="submit" formaction="registerEmpresa" >Realizar Registro</button>
                 </tr>
             </form>
             <h3><a href="tipoRegistro">Volver</a></h3>

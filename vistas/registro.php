@@ -46,7 +46,7 @@
                 </p>
                 <p>
                     <label for="direccion">Direcci&oacute;n</label>
-                    <input name="direccion" id="name" type="text"  />
+                    <input name="direccion" id="direccion" type="text"  />
                     <span id="e5"></span>
                 </p>
                 <p>
@@ -58,7 +58,7 @@
                     <input name="email" id="email" type="email"  />
                     <span id="e6"></span>
                 </p>
-                <p><input type="submit" value="Realizar Registro" /></p>
+               <button name="boton" id="boton" class="boton" type="submit" formaction="registerUsuario" >Realizar Registro</button>
             </form>
             <h3><a href="tipoRegistro">Volver</a></h3>
      </section>       

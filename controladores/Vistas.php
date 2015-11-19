@@ -35,17 +35,38 @@
 
  class Vistas extends Controlador
  {
- 	public function register() 
+ 	public function registerProducto()
+ 	{
+ 		move_uploaded_file($_FILE['archivo']['tmp_name'],"img/" . $_POST['archivo']);
+ 	}
+ 	public function registerUsuario() 
 	{
-		$nombre = $_POST ["name"];
-		$username = $_POST ["username"];
-		$pass = $_POST ["pass"];
-		$pass2 = $_POST ["pass2"];
-		$modelo = $this->cargarModelo ( "Usuario" );
-		$result = $modelo->insertUser ( $nombre, $username, $pass, $pass2 );
-		
-		echo "El usuario fue registrado con exito";
-		echo "<hr/>";
+		$datos = array();
+		$datos['nombre'] = $_POST ["name"];
+		$datos['cedula'] = $_POST ["cedula"];
+		$datos['usuario'] = $_POST ["usuario"];
+		$datos['clave'] = $_POST ["clave"];
+		$datos['direccion'] = $_POST ["direccion"];
+		$datos['telefono'] = $_POST ["telefono"];
+		$datos['email'] = $_POST ["email"];
+
+		$modelo = $this->cargarModelo("Usuario");
+		$result = $modelo->insertUser($datos);
+		$this->nuevoUsuario();
+	}
+	public function registerEmpresa() 
+	{
+		$datos = array();
+		$datos['nombre'] = $_POST ["nombreEmp"];
+		$datos['usuario'] = $_POST ["usuarioEmp"];
+		$datos['clave'] = $_POST ["claveEmp"];
+		$datos['telefono'] = $_POST ["telefonoEmp"];
+		$datos['email'] = $_POST ["emailEmp"];
+		$datos['responsable'] = $_POST ["nombreResp"];
+
+		$modelo = $this->cargarModelo("Empresa");
+		$result = $modelo->insertEmpresa($datos);
+		$this->nuevaEmpresa();
 	}
  	public function comprarPujas()
  	{
