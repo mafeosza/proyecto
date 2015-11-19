@@ -7,14 +7,12 @@
 <body>
 	<header>
     	<h1 class="titulo1">Subastas</h1>
-         <!--foundation-->
-        <link rel="stylesheet" href="proyecto/css/foundation.css">
+           <script src="../js/modernizr.js"></script>
+        <link rel="stylesheet" href="../css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>  
         <ul class="styloMenu">
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contactenos</a></li>
             <li><a href="login">Iniciar sesi&oacute;n</a></li>
             <li><a href="tipoRegistro">Registrate</a></li>
             <li><a href="usuario">Usuario</a></li>

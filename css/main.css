@@ -83,19 +83,28 @@ nav ul li{
 .styloMenu li a{
     display:block;
     margin-right:10px;
+    display: inline;
+    padding: 0;
     width:175px;
     font-size: 22px;
     line-height:44px;
     text-align:center;
     text-decoration:none;
+    background-color: #2175bc;
+    color: #fff;
+    font-family: Arial;
+    padding: 10px;
+    float:center;
 
-    color:purple;
+
+    color:white;
 }
 
 /*Le brinda a las propiedades de HOVER y Selected un color particular*/
       .styloMenu li a:hover {
-            color: #ff6;
-        }
+background-color: #2586d7;
+margin-top:-2px;
+padding-bottom:12px;        }
  
         .styloMenu li.selected a { 
             color: #fff;

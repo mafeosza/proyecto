@@ -35,6 +35,18 @@
 
  class Vistas extends Controlador
  {
+ 	public function register() 
+	{
+		$nombre = $_POST ["name"];
+		$username = $_POST ["username"];
+		$pass = $_POST ["pass"];
+		$pass2 = $_POST ["pass2"];
+		$modelo = $this->cargarModelo ( "Usuario" );
+		$result = $modelo->insertUser ( $nombre, $username, $pass, $pass2 );
+		
+		echo "El usuario fue registrado con exito";
+		echo "<hr/>";
+	}
  	public function comprarPujas()
  	{
  		$this->cargarVista("comprarPujas");

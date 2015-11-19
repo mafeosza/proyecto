@@ -6,15 +6,13 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
-         <!--foundation-->
-        <link rel="stylesheet" href="proyecto/css/foundation.css">
+         <!--foundation-->  <script src="../js/modernizr.js"></script>
+        <link rel="stylesheet" href="../css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>
         <nav>
         <ul class="styloMenu">
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contactenos</a></li>
             <li><a href="login">Iniciar sesi&oacute;n</a></li>
             <li><a href="tipoRegistro">Registrate</a></li>
             <li><a href="usuario">Usuario</a></li>
@@ -46,14 +44,14 @@
                     diferencia=diferencia-(60*minutos)
                     segundos=Math.floor(diferencia)
 
-                    document.getElementById(id).innerHTML='<span class="element">' + dias + ' dias</span><span class="element">' + horas + ' horas</span><span class="element">' + minutos + ' minutos</span><span class="element">' + segundos + ' segundos</span>'
+                    document.getElementById(id).innerHTML='<span class="element">' + dias + ' dias</span><span class="element">' + horas + ' horas</span><span class="element">' + min + ' minutos</span><span class="element">' + seg + ' segundos</span>'
 
                     if (dias>0 || horas>0 || minutos>0 || segundos>0){
                             setTimeout("countdown(\"" + id + "\")",1000)
                     }
             }
             else{
-                    document.getElementById('restante').innerHTML='<span class="element">' + dias + ' dias</span><span class="element">' + horas + ' horas</span><span class="element">' + minutos + ' minutos</span><span class="element">' + segundos + ' segundos</span>'
+                    document.getElementById('restante').innerHTML='<span class="element">' + dias + ' dias</span><span class="element">' + horas + ' horas</span><span class="element">' + min + ' minutos</span><span class="element">' + seg + ' segundos</span>'
             }
         }
         </script>
@@ -70,8 +68,8 @@
  		<div>
                 <div id="contador"><span class="element">1 dias</span>
                     <span class="element">4 horas</span>
-                    <span class="element">14 minutos</span>
-                    <span class="element">17 segundos</span>
+                    <span class="element">14 min</span>
+                    <span class="element">17 seg</span>
                 </div>
  			
  		</div>

@@ -8,15 +8,13 @@
 </head>
 <header>
         <h1 class="titulo1">Subastas</h1>
-         <!--foundation-->
-        <link rel="stylesheet" href="proyecto/css/foundation.css">
+         <!--foundation-->  <script src="../js/modernizr.js"></script>
+        <link rel="stylesheet" href="../css/foundation.css">
     </header>
         <!-- Navegacion -->
     <nav>
         <nav>
         <ul class="styloMenu">
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contactenos</a></li>
             <li><a href="login">Iniciar sesi&oacute;n</a></li>
             <li><a href="tipoRegistro">Registrate</a></li>
             <li><a href="empresa">Empresa</a></li>
@@ -57,7 +55,7 @@
                     <input name="tiempoEnvio" id="tiempoEnvio" type="text" />
                 </p>               
                 
-                <p><input type="submit" value="Realizar Registro" /></p>
+                <p><button name="boton" id="boton" class="boton" type="submit" formaction="register" >Realizar Registro</button></p>
             </form>
             <h4><a href="index">Ir a la p&aacute;gina principal</a></h4>
     </section>

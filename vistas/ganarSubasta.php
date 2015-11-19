@@ -12,8 +12,6 @@
 	<nav>
         <nav>
         <ul class="styloMenu">
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contactenos</a></li>
             <li><a href="login">Iniciar sesi&oacute;n</a></li>
             <li><a href="tipoRegistro">Registrate</a></li>
             <li><a href="usuario">Usuario</a></li>

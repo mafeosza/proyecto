@@ -8,17 +8,15 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
-    	 <!--foundation-->
-        <link rel="stylesheet" href="proyecto/css/foundation.css">
+    	 <!--foundation-->  <script src="../js/modernizr.js"></script>
+        <link rel="stylesheet" href="../css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>
         <nav>
         <ul class="styloMenu">
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contactenos</a></li>
-            <li><a href="login">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro">Registrate</a></li>
+	        <h3><li><a href="login">Iniciar sesi&oacute;n</a></li></h3>
+            <h3><li><a href="tipoRegistro">Registrate</a></li></h3>
         </ul>
         </nav>
     </nav>	
@@ -36,7 +34,7 @@
 				<input name="clave" id="pass" type="password"/>
 				<span id="errorp"></span>
 			</p>
-			<input type="submit" class="boton" value="Iniciar sesi&oacute;n" />
+			<button name="boton" id="boton" class="boton" type="submit" formaction="index" >Iniciar sesi&oacute;n</button>
 		</form>
 		<h3><a href="tipoRegistro">Registrate</a></h3>
 		<h4><a href="index">Volver a la p&aacute;gina de inicio</a></h4>

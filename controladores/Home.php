@@ -37,7 +37,7 @@
 			
 		} else {
 			echo "login fallo";
-			$this->cargarVista ( "index" );
+			$this->cargarVista("index" );
 		}
 	}
 	public function logout() 
