@@ -24,7 +24,7 @@
 <body>
     <section id="contenedor1">
         <h2>Registro Producto</h2>
-   <form action="#" method="post" > 
+   <form action="#" method="post" enctype="multipart/form-data"> 
    	  <p>
         <label for="urlFoto">URL Foto</label>
          <input type="file" name="archivo" id="archivo"></input>
@@ -42,7 +42,7 @@
                 </p>
                 <p>
                     <label for="caracteristicas">Caracteristicas</label>
-                    <textarea name="usuario" id="usuario" > </textarea>
+                    <textarea name="caracteristicas" id="caracteristicas" > </textarea>
                     <span id="ep4"></span> 
                 </p>
                 <p>
@@ -56,6 +56,7 @@
                 </p>               
                 
                 <p><button name="boton" id="boton" class="boton" type="submit" formaction="registerProducto" >Realizar Registro</button></p>
+
             </form>
             <h4><a href="index">Ir a la p&aacute;gina principal</a></h4>
     </section>

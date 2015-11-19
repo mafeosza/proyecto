@@ -37,7 +37,22 @@
  {
  	public function registerProducto()
  	{
- 		move_uploaded_file($_FILE['archivo']['tmp_name'],"img/" . $_POST['archivo']);
+ 		$datos =  array( );
+
+ 		
+ 		$datos['url'] = "img/" .$_FILES["archivo"]["name"];
+ 		$datos['nombre'] = $_POST['nombre'];
+ 		$datos['precio'] = $_POST['precio'];
+ 		$datos['caracteristicas'] = $_POST['caracteristicas'];
+ 		$datos['fechaCierre'] = $_POST['fechaCierre'];
+ 		$datos['tiempo'] = $_POST['tiempoEnvio'];
+ 		$datos['empresa'] = '1';
+
+		$modelo = $this->cargarModelo("Producto");
+		$result = $modelo->insertProducto($datos);
+
+		move_uploaded_file($_FILES['archivo']['tmp_name'],"img/" .$_FILES["archivo"]["name"]);
+		$this->empresa();
  	}
  	public function registerUsuario() 
 	{
