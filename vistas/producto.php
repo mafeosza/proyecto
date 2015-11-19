@@ -22,7 +22,42 @@
         </ul>
         </nav>
     </nav>
-<body>
+            <script type="text/javascript">
+        
+        $(function(){
+            $('#datepicker').datetimepicker();
+        });
+            
+        function countdown(id){
+            var fecha=new Date('2015','10','20','00','00','00')
+            var hoy=new Date()
+            var dias=0
+            var horas=0
+            var minutos=0
+            var segundos=0
+
+            if (fecha>hoy){
+                    var diferencia=(fecha.getTime()-hoy.getTime())/1000
+                    dias=Math.floor(diferencia/86400)
+                    diferencia=diferencia-(86400*dias)
+                    horas=Math.floor(diferencia/3600)
+                    diferencia=diferencia-(3600*horas)
+                    minutos=Math.floor(diferencia/60)
+                    diferencia=diferencia-(60*minutos)
+                    segundos=Math.floor(diferencia)
+
+                    document.getElementById(id).innerHTML='<span class="element">' + dias + ' dias</span><span class="element">' + horas + ' horas</span><span class="element">' + minutos + ' minutos</span><span class="element">' + segundos + ' segundos</span>'
+
+                    if (dias>0 || horas>0 || minutos>0 || segundos>0){
+                            setTimeout("countdown(\"" + id + "\")",1000)
+                    }
+            }
+            else{
+                    document.getElementById('restante').innerHTML='<span class="element">' + dias + ' dias</span><span class="element">' + horas + ' horas</span><span class="element">' + minutos + ' minutos</span><span class="element">' + segundos + ' segundos</span>'
+            }
+        }
+        </script>
+<body onload="countdown('contador')">
  <section id= "contenedor1">
  	<h2>Producto "nombre"</h2>
  	<p><br></p>
@@ -33,21 +68,12 @@
  			<h4><a href="#">Precio actual: n</a></h4>
  		</div>	
  		<div>
- 			<table class="conteo">
- 				<tr>
- 					<th scope="col"><h3>D&iacute;as:</h3></th>
- 					<th scope="col"><h3>Horas:</h3></th>
- 					<th scope="col"><h3>Minutos:</h3></th>
- 					<th scope="col"><h3>Segundos:</h3></th>
- 				</tr>
- 				<tr>
- 					<th scope="col"><h4>00</h4></th>
- 					<th scope="col"><h4>00</h4></th>
- 					<th scope="col"><h4>00</h4></th>
- 					<th scope="col"><h4>00</h4></th>
- 				</tr>
-
- 			</table>
+                <div id="contador"><span class="element">1 dias</span>
+                    <span class="element">4 horas</span>
+                    <span class="element">14 minutos</span>
+                    <span class="element">17 segundos</span>
+                </div>
+ 			
  		</div>
  		<div>
  			<h4> Caracteristicas:<br> 

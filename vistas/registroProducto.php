@@ -29,7 +29,7 @@
    <form action="#" method="post"> 
    	  <p>
         <label for="urlFoto">URL Foto</label>
-         <input name="urlFoto" id="urlFoto" type="text"  />
+         <input type="file" name="archivo" id="archivo"></input>
          <span id="ep1"></span> 
                 </p>
                 <p>

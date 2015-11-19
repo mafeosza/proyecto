@@ -1,6 +1,38 @@
 <?php
  require_once("libs/Controlador.php");
  
+
+ /* app id: 1683549615196477
+    API VERSION : v2.5
+   appSecret: 037a719772b6302e807352472cd18a10
+
+   <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1683549615196477',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+344){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+	</script>
+ */
+	/*
+	gogle plus
+	nombre proyecto subastas
+	El ID del proyecto subastas-1133 
+	Número del proyecto
+	520284535549
+	numero server
+	AIzaSyDvoCV4K77bXJBv9hI8opcqLbrrh6BI_ck
+	*/
+
  class Vistas extends Controlador
  {
  	public function comprarPujas()
