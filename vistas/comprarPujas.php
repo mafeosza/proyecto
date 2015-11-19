@@ -3,23 +3,24 @@
 <head>
     <title>Comprar pujas</title>
     <link rel="stylesheet" href="/proyecto/css/main.css"/>
-     <!--foundation-->
-        <link rel="stylesheet" href="proyecto/css/foundation.css">
+    
 </head>
 <body>
 	<header>
+        <div id="encabezado">
     	<h1 class="titulo1">Subastas</h1>
+        </div>
+         <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
-    <nav>
-        <nav>
-        <ul class="styloMenu">
-            <li><a href="login">Iniciar sesi&oacute;n</a></li>
-            <li><a href="tipoRegistro">Registrate</a></li>
-            <li><a href="usuario">Usuario</a></li>
-		    <li><a href="empresa">Empresa</a></li>
+    <!-- Navegacion -->
+    <div class="navegador">  
+        <ul id="menu">
+            <li><a href="login">. Iniciar sesi&oacute;n     .</a></li>
+            <li><a href="tipoRegistro"> Registrate   .</a></li>
+            <li><a href="usuario">Usuario   .</a></li>
         </ul>
-        </nav>
-    </nav>
+    </div>
 <div id="contenedor1">
 	<h3>Comprar m&aacute;s pujas</h3>
 	<h4>Paquetes disponibles:</h4>

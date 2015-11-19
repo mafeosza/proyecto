@@ -1,16 +1,7 @@
-/*{
-	margin: 0;
-	padding: 0;
-}
-
-header, footer, nav {
-	display: block;
-}*/
-
 	/*Estilos para la aplicación*/
 body{
-    /*Color fondo del cuerpo de las vistas*/
-    background: #f0f0f0;
+    /*Color fondo del cuerpo de las vistas
+    background-image: url("proyecto/img/background.jpg");*/
     text-align: center;
 }
 h1{
@@ -53,9 +44,10 @@ p {
   border: 1px solid #000;
 }
 .titulo1{
-	font-size: 38px;
+	font-size: 58px;
 	line-height: 34px;
 	padding: 32px 0;
+    color: #000;
 	text-align: center;
 }
 .titulo{
@@ -63,53 +55,64 @@ p {
 	line-height: 34px;
 	text-align: center;
 }
-nav{
-    position:absolute;
-    left:0;
+#encabezado{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: rgb(100,0,250)-5px  5px 5px;
+    width: 60%;
+    height: auto;
+    background: url("../img/encabezado.jpg");
+    
+    border: 2px solid #000;
+    border-radius:50px;
+}
+.navegador{
+    clear:both;
+    float:left;
+    overflow:hidden;
     width:100%;
 }
+#menu {
 
-nav ul{
-    margin:0 auto;
-    width:940px;
-    list-style:none;
+ float:left;
+ left:50%;
+ list-style-type:none;
+ margin:0 auto;
+ padding:0;
+ position:relative;
 }
 
-nav ul li{
-    float:left;
+#menu li {
+ float:left;
+ position:relative;
+
+ right:50%;
+}
+#menu li a{
+    padding-left: 1%;
     
-}
-
-.styloMenu li a{
-    display:block;
-    margin-right:10px;
-    display: inline;
-    padding: 0;
-    width:175px;
-    font-size: 22px;
-    line-height:44px;
-    text-align:center;
-    text-decoration:none;
-    background-color: #2175bc;
     color: #fff;
-    font-family: Arial;
-    padding: 10px;
     float:center;
+    font-size: 22px;
 
-
-    color:white;
+    color:black;
 }
 
 /*Le brinda a las propiedades de HOVER y Selected un color particular*/
-      .styloMenu li a:hover {
-background-color: #2586d7;
+      #menu li a:hover {
+background-color: #c2d0ff;
 margin-top:-2px;
 padding-bottom:12px;        }
  
-        .styloMenu li.selected a { 
+        #menu li.selected a { 
             color: #fff;
         }
+/*section contenedorCentrado*/
+.contenedorCentrado{
+    text-align: center;
 
+}
 
 .productos{
 	

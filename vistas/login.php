@@ -6,20 +6,20 @@
      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
      <script type="text/javascript" src="../js/validacion1.js"></script>
 </head>
-<header>
-    	<h1 class="titulo1">Subastas</h1>
+<header> 
+	<div id="encabezado">
+    	   <h1 class="titulo1"><B>Subastas</B></h1>
+        </div>
     	 <!--foundation-->  <script src="../js/modernizr.js"></script>
         <link rel="stylesheet" href="../css/foundation.css">
   	</header>
-        <!-- Navegacion -->
-    <nav>
-        <nav>
-        <ul class="styloMenu">
-	        <h3><li><a href="login">Iniciar sesi&oacute;n</a></li></h3>
-            <h3><li><a href="tipoRegistro">Registrate</a></li></h3>
+     <!-- Navegacion -->
+    <div class="navegador">  
+        <ul id="menu">
+            <li><a href="login">. Iniciar sesi&oacute;n     .</a></li>
+            <li><a href="tipoRegistro"> Registrate   .</a></li>
         </ul>
-        </nav>
-    </nav>	
+    </div>
 <body>
 	<div id="contenedor1">
 		<h2>Login</h2>
