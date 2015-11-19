@@ -1,18 +1,17 @@
-{
+/*{
 	margin: 0;
 	padding: 0;
 }
 
 header, footer, nav {
 	display: block;
-}
+}*/
+
+	/*Estilos para la aplicación*/
 body{
-	background: url("../img/fondo.jpg") no-repeat center center fixed;
-	background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-	font: 13px/22px Helvetica, Arial,sans-serif;
+    /*Color fondo del cuerpo de las vistas*/
+    background: #f0f0f0;
+    text-align: center;
 }
 h1{
 	margin:0 auto;
@@ -74,7 +73,6 @@ nav ul{
     margin:0 auto;
     width:940px;
     list-style:none;
-
 }
 
 nav ul li{
@@ -123,18 +121,22 @@ nav ul li{
 
 
 #contenedor{
-	height: 1050px;
-	width: 780px;
-	margin-right: auto;
 	margin-left: auto;
-	margin-top: 9%;
-
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    padding: 5%;
+    background: #F8F8F8;
 }
 #contenedor1{
+    width: 60%;
+    height: auto;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 8%;
 	text-align: center;
+    background: #F8F8F8;
 
 }
 #imagen  img{

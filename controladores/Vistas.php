@@ -3,6 +3,10 @@
  
  class Vistas extends Controlador
  {
+ 	public function comprarPujas()
+ 	{
+ 		$this->cargarVista("comprarPujas");
+ 	}
  	public function empresa()
 	{
 		$this->cargarVista("empresa");		

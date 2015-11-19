@@ -6,6 +6,8 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
+         <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>

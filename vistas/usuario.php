@@ -6,6 +6,8 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
+        <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>
@@ -22,7 +24,7 @@
 <body>
 <section id= "contenedor1">
 	<section>
-		<h2>Bienvenido "Usuario"<br></h2>
+		<h1 class="titulo1">Bienvenido<br></h1>
 		<h3>Tiene n pujas disponibles</h3>
 		<h4><a href="comprarPujas">comprar m&aacute;s pujas</a></h4>
 		<h3>Productos comprados</h3>

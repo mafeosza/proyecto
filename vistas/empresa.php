@@ -7,6 +7,8 @@
 <body>
     <header>
         <h1 class="titulo1">Subastas</h1>
+         <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
     </header>
         <!-- Navegacion -->
     <nav>
@@ -22,7 +24,7 @@
         </nav>
     </nav>
 <section id= "contenedor1">
-	<h3>Bienvenido "Empresa"</h3>
+	<h1 class="titulo1">Bienvenido</h1>
 	<section class="productos">
 		<h3>Productos comprados</h3>
         <hr/>

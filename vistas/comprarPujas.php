@@ -3,6 +3,8 @@
 <head>
     <title>Comprar pujas</title>
     <link rel="stylesheet" href="/proyecto/css/main.css"/>
+     <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
 </head>
 <body>
 	<header>
@@ -24,10 +26,10 @@
 	<h3>Comprar m&aacute;s pujas</h3>
 	<h4>Paquetes disponibles:</h4>
 	<div class="content">
-		<button> <a href="medioPago"><h4>60 pujas</h4></button> <h4> precio </h4>
+		<a href="medioPago"><h4>60 pujas</h4></a> <h4> precio </h4>
 	</div>
 	<div class="content1">
-		<button> <a href="medioPago"><h4>120 pujas</h4></button> <h4> precio </h4>
+		<a href="medioPago"><h4>120 pujas</h4></a><h4> precio </h4>
 		<a href="index"><h4>Ir a p&aacute;gina de inicio</h4></button>
 	</div>		
 </div>

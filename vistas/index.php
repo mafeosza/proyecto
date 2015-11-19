@@ -7,10 +7,11 @@
 <body>
 	<header>
     	<h1 class="titulo1">Subastas</h1>
+         <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
         <!-- Navegacion -->
-    <nav>
-        <nav>
+    <nav>  
         <ul class="styloMenu">
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contactenos</a></li>
@@ -20,7 +21,6 @@
 		    <li><a href="empresa">Empresa</a></li>
 
         </ul>
-        </nav>
     </nav>
     <section id= "contenedor">
     	<section class="productos">

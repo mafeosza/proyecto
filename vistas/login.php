@@ -8,6 +8,8 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
+    	 <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>
@@ -36,7 +38,7 @@
 			</p>
 			<input type="submit" class="boton" value="Iniciar sesi&oacute;n" />
 		</form>
-		<h3><a href="registro">Registrate</a></h3>
+		<h3><a href="tipoRegistro">Registrate</a></h3>
 		<h4><a href="index">Volver a la p&aacute;gina de inicio</a></h4>
 </div>
 </body>

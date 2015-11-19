@@ -6,6 +6,8 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
+         <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>
@@ -24,8 +26,8 @@
 <section id="contenedor1">
 	<h1 class="titulo">Paquete de n pujas</h1>
 	<h3>Medios de pago disponibles disponibles:</h3>	
-		<button> <a href="pagoPaquetePuja"><h3>tarjeta</h3></button> 
-		<button> <a href="pagoPaquetePuja"><h3>cuenta </h3></button>
+		<a href="pagoPaquetePuja"><h3>tarjeta</h3></a> 
+		<a href="pagoPaquetePuja"><h3>cuenta </h3></a>
 	<a href="index"><h4>Ir a p&aacute;gina de inicio</h4></button>
 </section>
 

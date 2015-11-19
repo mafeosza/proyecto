@@ -6,6 +6,8 @@
 </head>
 <header>
     	<h1 class="titulo1">Subastas</h1>
+        <!--foundation-->
+        <link rel="stylesheet" href="proyecto/css/foundation.css">
   	</header>
         <!-- Navegacion -->
     <nav>
@@ -21,10 +23,10 @@
 <body>
 	<section id="contenedor1">
 		<h3>Registrate como:</h3>
-			<section id="contenedor1">
-			<button> <a href="registro"><h4>Persona</h4></button>   	
-			<button> <a href="registroEmpresa"><h4>Empresa</h4></button>
-			</section>
+			
+			<a href="registro"><h3>Usuario</h3> </a>	
+			<a href="registroEmpresa"><h3>Empresa</h3></a>
+			
 		<h4><a href="index">Volver a la p&aacute;gina de inicio</a></h4>
 </section>	
 </body>
